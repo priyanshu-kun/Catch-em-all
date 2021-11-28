@@ -1,0 +1,93 @@
+/* Styles go here */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&family=Roboto:wght@900&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif !important;
+  overflow: hidden;
+}
+
+
+.token {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.custom-style {
+  height: 8vh;
+  min-height: 60px;
+  background-color: #000 !important;
+}
+
+.custom-nav-logo {
+  height: 100%;
+  background-color: #E3450F !important;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #fff !important;
+  width: 200px;
+  padding: 0 20px;
+}
+
+.container-fluid {
+  margin-top: 80px !important;
+}
+
+.card-grid {
+  /* background-color: red; */
+  width: auto;
+}
+
+.grid {
+  display: grid !important;
+  grid-gap: 1px !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+  grid-template-rows: 1fr 1fr 1fr !important;
+}
+
+.card-grid img {
+  width: 120px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.card-container {
+  margin-right: 15px;
+}
+
+.card-container h1 {
+  font-weight: 900;
+  opacity: 0.3;
+}
+
+.tokens-container {
+  margin-left: 15px;
+  padding: 30px;
+  box-sizing: border-box;
+  height: 350px;
+ min-height: 350px;
+
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+}
+
+.tokens-container h5 {
+  font-weight: 900 !important;
+  margin-bottom: 20px;
+}
+
+.tokens-container img {
+  width: 80px;
+  height: auto;
+}
